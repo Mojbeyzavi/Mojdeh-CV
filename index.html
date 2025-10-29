@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mojdeh Beyzavi — CV</title>
+  <style>
+    :root{
+      --bg:#0b1220;--card:#121a2e;--ink:#e7eef7;--muted:#9db0c3;--line:#203150;--accent:#7cc5ff;--chip:#1a2746;--good:#79e2a0
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:linear-gradient(180deg,#0b1220,#0e1832);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    .wrap{max-width:1000px;margin-inline:auto;padding:28px}
+
+    header{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;margin-block:4px 22px}
+    header img{width:120px;height:120px;border-radius:16px;object-fit:cover;border:2px solid var(--line);background:#16213f}
+    .hgroup h1{margin:0 0 6px;font-size:28px}
+    .hgroup p{margin:0;color:var(--muted)}
+
+    .meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
+    .meta span{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--chip);color:var(--ink);font-size:14px}
+
+    .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}
+
+    .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 18px 14px}
+    .card h2{margin:0 0 10px;font-size:18px;letter-spacing:.2px}
+    .card p{color:var(--ink);opacity:.95;line-height:1.6}
+    .muted{color:var(--muted)}
+
+    .list{display:grid;gap:12px}
+    .item h3{margin:0 0 2px;font-size:16px}
+    .item .sub{color:var(--muted);font-size:14px;margin:0 0 4px}
+    .item .bullets{margin:6px 0 0 18px}
+    .item .bullets li{margin:4px 0}
+
+    .chips{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--chip);font-size:13px}
+
+    footer{margin-top:24px;color:var(--muted);text-align:center;font-size:13px}
+
+    @media (max-width:860px){
+      header{grid-template-columns:80px 1fr}
+      header img{width:80px;height:80px}
+      .grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <!-- Header -->
+    <header>
+      <!-- Optional profile photo. Replace src with your own image path or leave as is. -->
+      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300" alt="Profile placeholder" />
+      <div class="hgroup">
+        <h1>Mojdeh Beyzavi</h1>
+        <p class="muted">IT Sourcing & Contract Analyst • Software Asset Management (ServiceNow) • Sustainability-minded</p>
+        <div class="meta">
+          <span>Based in Malmö, Sweden</span>
+          <span>Open to: Internship / Part‑time / Junior roles</span>
+          <span><a href="#">LinkedIn</a></span>
+          <span><a href="#">GitHub</a></span>
+          <span>Email available on request</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main layout -->
+    <div class="grid">
+      <!-- Left column -->
+      <section class="card">
+        <h2>Profile</h2>
+        <p>
+          Early‑career analyst with experience collecting and organizing application agreements, building a simple contract repository, and collaborating with stakeholders to identify missing contracts. Hands‑on with ServiceNow basics and learning Software Asset Management (SAM). Strong interest in UI basics (HTML/CSS) and data‑driven cost reduction for software spend.
+        </p>
+      </section>
+
+      <aside class="card">
+        <h2>Key Skills</h2>
+        <div class="chips" aria-label="Skills">
+          <span class="chip">ServiceNow (SAM – beginner)</span>
+          <span class="chip">Contract analysis</span>
+          <span class="chip">Software license basics</span>
+          <span class="chip">MS Excel</span>
+          <span class="chip">Power BI (learning)</span>
+          <span class="chip">HTML & CSS</span>
+          <span class="chip">JavaScript basics</span>
+          <span class="chip">Stakeholder communication</span>
+        </div>
+      </aside>
+
+      <section class="card">
+        <h2>Experience</h2>
+        <div class="list">
+          <div class="item">
+            <h3>IT Sourcing Intern — Sandvik</h3>
+            <p class="sub">Malmö, Sweden · 2024–2025</p>
+            <ul class="bullets">
+              <li>Collected application agreements and entered required data into the repository; aligned naming for apps and licenses.</li>
+              <li>Supported migration planning from Alphabet system to ServiceNow for applications/contracts; explored SAM features for EULA, spend, and license tracking.</li>
+              <li>Prepared usage-by-country snapshots for key software to support spend reduction decisions.</li>
+              <li>Collaborated with colleagues and presented periodic updates to the manager; extended internship by two months based on performance.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>Project Coordinator / Analyst — Behsazan Mellat</h3>
+            <p class="sub">201x–202x</p>
+            <ul class="bullets">
+              <li>Coordinated IT projects and supported reporting, documentation, and stakeholder communication.</li>
+              <li>Maintained accurate task tracking and helped improve delivery discipline.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h2>Education</h2>
+        <div class="list">
+          <div class="item">
+            <h3>B.Sc. in Information Technology</h3>
+            <p class="sub">—</p>
+          </div>
+          <div class="item">
+            <h3>Studies in Sustainability Leadership</h3>
+            <p class="sub">Focus: ethical decision‑making & sustainable operations</p>
+          </div>
+        </div>
+      </aside>
+
+      <section class="card">
+        <h2>Selected Projects</h2>
+        <div class="list">
+          <div class="item">
+            <h3>Contract Repository (mini‑project)</h3>
+            <p class="sub">ServiceNow orientation · 2025</p>
+            <ul class="bullets">
+              <li>Mapped contracts and identified apps/solutions without contracts; created communication notes to locate missing agreements.</li>
+              <li>Defined risky software/license areas for ~15 suppliers as input to compliance checks.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>CV Webpage</h3>
+            <p class="sub">HTML/CSS · This page</p>
+            <ul class="bullets">
+              <li>Simple, responsive, single‑file webpage designed for GitHub Pages.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h2>Languages</h2>
+        <p>Persian (native), English (professional), Swedish (A‑level, learning)</p>
+        <h2 style="margin-top:16px">Interests</h2>
+        <p>Process improvement, sustainable IT, UI design basics, walking & fitness.</p>
+      </aside>
+
+      <section class="card">
+        <h2>Strengths</h2>
+        <ul class="bullets">
+          <li>Organized documentation and careful attention to detail.</li>
+          <li>Warm, professional communication style and willingness to learn.</li>
+          <li>Curious, proactive about tooling (ServiceNow, Power BI).</li>
+        </ul>
+      </section>
+
+      <aside class="card">
+        <h2>References</h2>
+        <p>Available upon request.</p>
+      </aside>
+    </div>
+
+    <footer>
+      <p>Last updated: <span id="lastUpdated"></span></p>
+    </footer>
+  </div>
+
+  <script>
+    // Show last updated date automatically
+    const d = new Date(document.lastModified);
+    document.getElementById('lastUpdated').textContent = d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'2-digit'});
+  </script>
+</body>
+</html>
