@@ -14,35 +14,26 @@
     body{margin:0;background:linear-gradient(180deg,#0b1220,#0e1832);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
     a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
-
     .wrap{max-width:1000px;margin-inline:auto;padding:28px}
-
     header{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;margin-block:4px 22px}
     header img{width:120px;height:120px;border-radius:16px;object-fit:cover;border:2px solid var(--line);background:#16213f}
     .hgroup h1{margin:0 0 6px;font-size:28px}
     .hgroup p{margin:0;color:var(--muted)}
-
     .meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
     .meta span{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--chip);color:var(--ink);font-size:14px}
-
     .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}
-
     .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 18px 14px}
     .card h2{margin:0 0 10px;font-size:18px;letter-spacing:.2px}
     .card p{color:var(--ink);opacity:.95;line-height:1.6}
     .muted{color:var(--muted)}
-
     .list{display:grid;gap:12px}
     .item h3{margin:0 0 2px;font-size:16px}
     .item .sub{color:var(--muted);font-size:14px;margin:0 0 4px}
     .item .bullets{margin:6px 0 0 18px}
     .item .bullets li{margin:4px 0}
-
     .chips{display:flex;flex-wrap:wrap;gap:8px}
     .chip{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--chip);font-size:13px}
-
     footer{margin-top:24px;color:var(--muted);text-align:center;font-size:13px}
-
     @media (max-width:860px){
       header{grid-template-columns:80px 1fr}
       header img{width:80px;height:80px}
@@ -53,14 +44,14 @@
 <body>
   <div class="wrap">
     <!-- Header -->
-    <header> 
+    <header>
       <img src="./mojdeh.jpeg?v=2" alt="Mojdeh Beyzavi" />
       <div class="hgroup">
         <h1>Mojdeh Beyzavi</h1>
-        <p class="muted">IT Sourcing & Contract Analyst • Software Asset Management (ServiceNow) • Sustainability-minded</p>
+        <p class="muted">IT Project Coordinator & Digital Transformation Specialist</p>
         <div class="meta">
           <span>Based in Malmö, Sweden</span>
-          <span>Open to: Internship / Part‑time / Junior roles</span>
+          <span>Open to: Internship / Part-time / Junior roles</span>
           <span><a href="#">LinkedIn</a></span>
           <span><a href="#">GitHub</a></span>
           <span>Email available on request</span>
@@ -74,21 +65,23 @@
       <section class="card">
         <h2>Profile</h2>
         <p>
-          Early‑career analyst with experience collecting and organizing application agreements, building a simple contract repository, and collaborating with stakeholders to identify missing contracts. Hands‑on with ServiceNow basics and learning Software Asset Management (SAM). Strong interest in UI basics (HTML/CSS) and data‑driven cost reduction for software spend.
+          Experienced IT professional with a background in IT operations, digital transformation and service management. Skilled in ITIL practices and coordinating between local and global IT teams. Hands-on with ServiceNow adoption, migration support, and aligning IT processes with business goals to improve efficiency. <!-- data from resume -->
         </p>
       </section>
 
       <aside class="card">
         <h2>Key Skills</h2>
         <div class="chips" aria-label="Skills">
-          <span class="chip">ServiceNow (SAM – beginner)</span>
-          <span class="chip">Contract analysis</span>
-          <span class="chip">Software license basics</span>
-          <span class="chip">MS Excel</span>
-          <span class="chip">Power BI (learning)</span>
-          <span class="chip">HTML & CSS</span>
-          <span class="chip">JavaScript basics</span>
-          <span class="chip">Stakeholder communication</span>
+          <span class="chip">ITSM / ITIL / ServiceNow</span>
+          <span class="chip">CMDB (intro)</span>
+          <span class="chip">Change Management</span>
+          <span class="chip">Agile • SAFe • Scrum</span>
+          <span class="chip">Power BI • Excel</span>
+          <span class="chip">SQL (learning)</span>
+          <span class="chip">Python (basic)</span>
+          <span class="chip">JavaScript (learning)</span>
+          <span class="chip">Process Optimization</span>
+          <span class="chip">Test Automation (ALST)</span>
         </div>
       </aside>
 
@@ -96,21 +89,42 @@
         <h2>Experience</h2>
         <div class="list">
           <div class="item">
-            <h3>IT Sourcing Intern — Sandvik</h3>
+            <h3>IT Sourcing Analyst — Sandvik</h3>
             <p class="sub">Malmö, Sweden · 2024–2025</p>
             <ul class="bullets">
-              <li>Collected application agreements and entered required data into the repository; aligned naming for apps and licenses.</li>
-              <li>Supported migration planning from Alphabet system to ServiceNow for applications/contracts; explored SAM features for EULA, spend, and license tracking.</li>
-              <li>Prepared usage-by-country snapshots for key software to support spend reduction decisions.</li>
-              <li>Collaborated with colleagues and presented periodic updates to the manager; extended internship by two months based on performance.</li>
+              <li>Coordinated between local IT teams and central functions for software sourcing & asset management.</li>
+              <li>Supported ServiceNow adoption for IT asset tracking and reporting; contributed to digital-transformation alignment.</li>
+              <li>Provided data analysis in agile/SAFe sprints on software usage, license needs, and phasing out unused tools.</li>
+              <li>Built Power BI dashboards to forecast license needs and optimize vendor spend.</li>
             </ul>
           </div>
+
           <div class="item">
-            <h3>Project Coordinator / Analyst — Behsazan Mellat</h3>
-            <p class="sub">201x–202x</p>
+            <h3>UN Malmö Ambassador — UN Association of Sweden</h3>
+            <p class="sub">Malmö · 2021–2022</p>
             <ul class="bullets">
-              <li>Coordinated IT projects and supported reporting, documentation, and stakeholder communication.</li>
-              <li>Maintained accurate task tracking and helped improve delivery discipline.</li>
+              <li>Supported sustainability data management, event planning and impact reporting for stakeholders.</li>
+              <li>Created educational materials to promote CSRD/ESG/SDGs awareness, including a podcast initiative.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h3>IT Project Control & Coordinator — Behsazan Mellat (Banking)</h3>
+            <p class="sub">Tehran · 2014–2020</p>
+            <ul class="bullets">
+              <li>Managed control for large IT initiatives; aligned timelines, resources and deliverables with business goals.</li>
+              <li>Drove change-management and process improvements based on ITIL practices.</li>
+              <li>Built KPI dashboards (Power BI/Excel) for performance and service efficiency.</li>
+            </ul>
+          </div>
+
+          <div class="item">
+            <h3>IT Project & Service Coordinator — ParsOnline Group (Telecom)</h3>
+            <p class="sub">Tehran · 2011–2014</p>
+            <ul class="bullets">
+              <li>Led change initiatives to standardize IT service practices and cross-team adoption.</li>
+              <li>Supported migration from legacy systems/SharePoint to ServiceNow.</li>
+              <li>Delivered ITIL trainings and coordinated between technical & business stakeholders.</li>
             </ul>
           </div>
         </div>
@@ -120,12 +134,20 @@
         <h2>Education</h2>
         <div class="list">
           <div class="item">
-            <h3>B.Sc. in Information Technology</h3>
-            <p class="sub">—</p>
+            <h3>Yrkessvenska</h3>
+            <p class="sub">Merit Malmö — 2025</p>
           </div>
           <div class="item">
-            <h3>Studies in Sustainability Leadership</h3>
-            <p class="sub">Focus: ethical decision‑making & sustainable operations</p>
+            <h3>M.A. Leadership for Sustainability</h3>
+            <p class="sub">Malmö University — 2023–2024</p>
+          </div>
+          <div class="item">
+            <h3>Adaptive Lean Software Testing</h3>
+            <p class="sub">BTH University — 2024</p>
+          </div>
+          <div class="item">
+            <h3>B.Sc. Information Technology Engineering</h3>
+            <p class="sub">Azad University — 2003–2008</p>
           </div>
         </div>
       </aside>
@@ -134,18 +156,17 @@
         <h2>Selected Projects</h2>
         <div class="list">
           <div class="item">
-            <h3>Contract Repository (mini‑project)</h3>
+            <h3>Contract & License Insights</h3>
             <p class="sub">ServiceNow orientation · 2025</p>
             <ul class="bullets">
-              <li>Mapped contracts and identified apps/solutions without contracts; created communication notes to locate missing agreements.</li>
-              <li>Defined risky software/license areas for ~15 suppliers as input to compliance checks.</li>
+              <li>Mapped contracts and app inventory; highlighted gaps and risky software/license areas for compliance checks.</li>
             </ul>
           </div>
           <div class="item">
             <h3>CV Webpage</h3>
             <p class="sub">HTML/CSS · This page</p>
             <ul class="bullets">
-              <li>Simple, responsive, single‑file webpage designed for GitHub Pages.</li>
+              <li>Simple, responsive single-file site deployed on GitHub Pages.</li>
             </ul>
           </div>
         </div>
@@ -153,7 +174,7 @@
 
       <aside class="card">
         <h2>Languages</h2>
-        <p>Persian (native), English (professional), Swedish (A‑level, learning)</p>
+        <p>Persian (Native), English (Fluent), Swedish (Intermediate)</p>
         <h2 style="margin-top:16px">Interests</h2>
         <p>Process improvement, sustainable IT, UI design basics, walking & fitness.</p>
       </aside>
@@ -161,9 +182,9 @@
       <section class="card">
         <h2>Strengths</h2>
         <ul class="bullets">
-          <li>Organized documentation and careful attention to detail.</li>
-          <li>Warm, professional communication style and willingness to learn.</li>
-          <li>Curious, proactive about tooling (ServiceNow, Power BI).</li>
+          <li>Clear documentation and attention to detail.</li>
+          <li>Warm, professional communication; strong collaboration in multicultural teams.</li>
+          <li>Curious and proactive with tooling (ServiceNow, Power BI).</li>
         </ul>
       </section>
 
@@ -179,9 +200,9 @@
   </div>
 
   <script>
-    // Show last updated date automatically
     const d = new Date(document.lastModified);
-    document.getElementById('lastUpdated').textContent = d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'2-digit'});
+    document.getElementById('lastUpdated').textContent =
+      d.toLocaleDateString(undefined,{year:'numeric',month:'short',day:'2-digit'});
   </script>
 </body>
 </html>
