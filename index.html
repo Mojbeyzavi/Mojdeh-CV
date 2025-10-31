@@ -7,33 +7,47 @@
   <title>Mojdeh Beyzavi — CV</title>
   <style>
     :root{
-      --bg:#0b1220;--card:#121a2e;--ink:#e7eef7;--muted:#9db0c3;--line:#203150;--accent:#7cc5ff;--chip:#1a2746;--good:#79e2a0
+      --bg:#0b1220;--card:#121a2e;--ink:#e7eef7;--muted:#9db0c3;--line:#203150;--accent:#7cc5ff;--chip:#1a2746
     }
     *{box-sizing:border-box}
     html,body{height:100%}
-    body{margin:0;background:linear-gradient(180deg,#0b1220,#0e1832);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial}
+    body{
+      margin:0;background:linear-gradient(180deg,#0b1220,#0e1832);
+      color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial
+    }
     a{color:var(--accent);text-decoration:none}
     a:hover{text-decoration:underline}
+
     .wrap{max-width:1000px;margin-inline:auto;padding:28px}
     header{display:grid;grid-template-columns:120px 1fr;gap:20px;align-items:center;margin-block:4px 22px}
     header img{width:120px;height:120px;border-radius:16px;object-fit:cover;border:2px solid var(--line);background:#16213f}
     .hgroup h1{margin:0 0 6px;font-size:28px}
     .hgroup p{margin:0;color:var(--muted)}
+
     .meta{display:flex;flex-wrap:wrap;gap:12px;margin-top:10px}
-    .meta span{display:inline-flex;gap:8px;align-items:center;padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--chip);color:var(--ink);font-size:14px}
+    .meta a,.meta span{
+      display:inline-flex;gap:8px;align-items:center;padding:6px 10px;
+      border:1px solid var(--line);border-radius:999px;background:var(--chip);
+      color:var(--ink);font-size:14px
+    }
+
     .grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px}
     .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px 18px 14px}
     .card h2{margin:0 0 10px;font-size:18px;letter-spacing:.2px}
     .card p{color:var(--ink);opacity:.95;line-height:1.6}
     .muted{color:var(--muted)}
+
     .list{display:grid;gap:12px}
     .item h3{margin:0 0 2px;font-size:16px}
     .item .sub{color:var(--muted);font-size:14px;margin:0 0 4px}
     .item .bullets{margin:6px 0 0 18px}
     .item .bullets li{margin:4px 0}
+
     .chips{display:flex;flex-wrap:wrap;gap:8px}
     .chip{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--chip);font-size:13px}
+
     footer{margin-top:24px;color:var(--muted);text-align:center;font-size:13px}
+
     @media (max-width:860px){
       header{grid-template-columns:80px 1fr}
       header img{width:80px;height:80px}
@@ -45,16 +59,16 @@
   <div class="wrap">
     <!-- Header -->
     <header>
-      <img src="./mojdeh.jpeg?v=2" alt="Mojdeh Beyzavi" />
+      <img src="./mojdeh.jpeg?v=3" alt="Mojdeh Beyzavi" />
       <div class="hgroup">
         <h1>Mojdeh Beyzavi</h1>
         <p class="muted">IT Project Coordinator & Digital Transformation Specialist</p>
         <div class="meta">
           <span>Based in Malmö, Sweden</span>
-          <span>Open to: Internship / Part-time / Junior roles</span>
-          <span><a href="#">LinkedIn</a></span>
-          <span><a href="#">GitHub</a></span>
-          <span>Email available on request</span>
+          <a href="mailto:mojbeyzavi@gmail.com" aria-label="email">📧 mojbeyzavi@gmail.com</a>
+          <a href="tel:+46700609332" aria-label="phone">📞 0700609332</a>
+          <a href="#" aria-label="LinkedIn">in LinkedIn</a>
+          <a href="#" aria-label="GitHub">🐙 GitHub</a>
         </div>
       </div>
     </header>
@@ -65,7 +79,7 @@
       <section class="card">
         <h2>Profile</h2>
         <p>
-          Experienced IT professional with a background in IT operations, digital transformation and service management. Skilled in ITIL practices and coordinating between local and global IT teams. Hands-on with ServiceNow adoption, migration support, and aligning IT processes with business goals to improve efficiency. <!-- data from resume -->
+          Experienced IT professional with a background in IT operations, digital transformation and service management. Skilled in ITIL practices and coordinating between local and global IT teams. Hands-on with ServiceNow adoption, migration support, and aligning IT processes with business goals to improve efficiency.
         </p>
       </section>
 
@@ -82,6 +96,8 @@
           <span class="chip">JavaScript (learning)</span>
           <span class="chip">Process Optimization</span>
           <span class="chip">Test Automation (ALST)</span>
+          <!-- ✨ new line added -->
+          <span class="chip">C# • JavaScript • React • Java (Learning)</span>
         </div>
       </aside>
 
